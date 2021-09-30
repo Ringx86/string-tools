@@ -12,10 +12,8 @@
         />
 
         <q-toolbar-title>
-          Quasar App
+          String Tools
         </q-toolbar-title>
-
-        <div>Quasar v{{ $q.version }}</div>
       </q-toolbar>
     </q-header>
 
@@ -28,7 +26,7 @@
         <q-item-label
           header
         >
-          Essential Links
+        常用功能
         </q-item-label>
 
         <EssentialLink
@@ -52,44 +50,27 @@ const linksList = [
   {
     title: 'Base 64',
     caption: 'Base 64 编解码',
-    icon: 'school',
     link: '#/base64'
   },
   {
     title: 'URL',
     caption: 'Url 编解码',
-    icon: 'code',
     link: '#/url'
   },
   {
     title: 'SM4',
     caption: 'SM4 加解密',
-    icon: 'chat',
     link: '#/sm4'
+  },
+  {
+    title: 'AES / DES',
+    caption: 'AES / DES 加解密',
+    link: '#/aesdes'
   },
   {
     title: 'Hash',
     caption: 'Hash',
-    icon: 'record_voice_over',
     link: '#/hash'
-  },
-  {
-    title: 'Twitter',
-    caption: '@quasarframework',
-    icon: 'rss_feed',
-    link: 'https://twitter.quasar.dev'
-  },
-  {
-    title: 'Facebook',
-    caption: '@QuasarFramework',
-    icon: 'public',
-    link: 'https://facebook.quasar.dev'
-  },
-  {
-    title: 'Quasar Awesome',
-    caption: 'Community Quasar projects',
-    icon: 'favorite',
-    link: 'https://awesome.quasar.dev'
   }
 ]
 

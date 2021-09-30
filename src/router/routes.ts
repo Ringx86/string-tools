@@ -22,6 +22,11 @@ const routes: RouteRecordRaw[] = [
     children: [{ path: '', component: () => import('src/pages/SM4.vue') }]
   },
   {
+    path: '/aesdes',
+    component: () => import('layouts/MainLayout.vue'),
+    children: [{ path: '', component: () => import('src/pages/AesDes.vue') }]
+  },
+  {
     path: '/hash',
     component: () => import('layouts/MainLayout.vue'),
     children: [{ path: '', component: () => import('src/pages/Hash.vue') }]
